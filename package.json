@@ -1,6 +1,7 @@
 {
   "name": "taskflow",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "workspaces": [
     "client",
@@ -8,7 +9,7 @@
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
-    "build": "npm run build --workspace=client && rm -rf public && mkdir -p public && cp -r client/dist/* public/",
+    "build": "npm run build --workspace=client && node scripts/postbuild.js",
     "install-all": "npm install"
   },
   "dependencies": {
