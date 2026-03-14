@@ -4,7 +4,7 @@
 TaskFlow is a production-ready Task Management Application demonstrating a comprehensive backend architecture, robust authentication, top-tier security practices, and a modern frontend integration.
 
 ## 🚀 Live Links
-- **GitHub Repository:** [Placeholder Link]
+- **GitHub Repository:** [https://github.com/AdityaSingh5025/Taskflow.git](https://github.com/AdityaSingh5025/Taskflow.git)
 - **Live Deployed URL:** [Placeholder Link]
 
 ## 🏗 System Architecture
