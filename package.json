@@ -1,13 +1,12 @@
-{
-  "name": "taskflow",
-  "version": "1.0.0",
-  "description": "Root package for TaskFlow",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "server": "npm run dev --prefix server",
-    "client": "npm run dev --prefix client",
-    "install-all": "npm install --prefix server && npm install --prefix client",
-    "build": "npm run build --prefix client"
+    "dev": "concurrently \"npm run dev --workspace=server\" \"npm run dev --workspace=client\"",
+    "build": "npm run build --workspace=client && rm -rf public && mkdir public && cp -r client/dist/* public/",
+    "install-all": "npm install"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
