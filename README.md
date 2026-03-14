@@ -5,7 +5,7 @@ TaskFlow is a production-ready Task Management Application demonstrating a compr
 
 ## 🚀 Live Links
 - **GitHub Repository:** [https://github.com/AdityaSingh5025/Taskflow.git](https://github.com/AdityaSingh5025/Taskflow.git)
-- **Live Deployed URL:** [Placeholder Link]
+- **Live Deployed URL:** [https://taskflow-delta-dusky.vercel.app]
 
 ## 🏗 System Architecture
 
